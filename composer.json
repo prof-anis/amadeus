@@ -1,0 +1,26 @@
+{
+    "name": "busybrain/reloadly",
+    "description": "A simple php library to interact with the reloadly api",
+    "type": "library",
+    "license": "mit",
+    "autoload":{
+        "psr-4":{
+            "Busybrain\\Reloadly\\" : "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "prof-anis",
+            "email": "emeritusprofessoranis@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^8.1",
+        "illuminate/container": "^8.1",
+        "illuminate/support": "^8.1",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/http": "^8.1",
+        "phpunit/phpunit": "^9.4"
+    }
+
+}
