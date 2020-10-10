@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Busybrain\Reloadly\Http;
+namespace Busybrain\Amadeus\Http;
 
 use Illuminate\Collection;
 use GuzzleHttp\Psr7\Response;

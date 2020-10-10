@@ -2,7 +2,7 @@
 
 namespace Busybrain\Reloadly;
 
-class Reloadly{
+class Amadeus{
 
     /**
      * @var App

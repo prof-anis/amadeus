@@ -1,12 +1,12 @@
 <?php
 
-namespace Busybrain\Reloadly\Api;
+namespace Busybrain\Amadeus\Api;
 
 /**
  * Class Account
  * @package Busybrain\Reloadly\Api
  */
-class Account extends BaseApi{
+class FlightSearch extends BaseApi{
 
     /**
      *

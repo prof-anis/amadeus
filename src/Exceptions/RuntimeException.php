@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Busybrain\Reloadly\Exceptions;
+namespace Busybrain\Amadeus\Exceptions;
 
 
 class RuntimeException extends \RuntimeException
