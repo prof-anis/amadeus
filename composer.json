@@ -19,7 +19,6 @@
         "illuminate/container": "^8.1",
         "illuminate/support": "^8.1",
         "guzzlehttp/guzzle": "^7.0",
-        "illuminate/http": "^8.1",
         "phpunit/phpunit": "^9.4"
     }
 
