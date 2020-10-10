@@ -15,9 +15,9 @@
         }
     ],
     "require": {
-        "illuminate/collections": "^8.1",
-        "illuminate/container": "^8.1",
-        "illuminate/support": "^8.1",
+        "illuminate/collections": "^8.9.0",
+        "illuminate/container": "^8.9.0",
+        "illuminate/support": "^8.9.0",
         "guzzlehttp/guzzle": "^7.0",
         "phpunit/phpunit": "^9.4"
     }
