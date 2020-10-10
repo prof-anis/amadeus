@@ -42,6 +42,7 @@ class ResponseMediator{
                 return Collection::make($data);
             }
 
+
             return $data;
         }
 
