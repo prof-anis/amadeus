@@ -1,11 +1,11 @@
 {
-    "name": "busybrain/reloadly",
+    "name": "busybrain/amadeus",
     "description": "A simple php library to interact with the reloadly api",
     "type": "library",
     "license": "mit",
     "autoload":{
         "psr-4":{
-            "Busybrain\\Reloadly\\" : "src/"
+            "Busybrain\\Amadeus\\" : "src/"
         }
     },
     "authors": [

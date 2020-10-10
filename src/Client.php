@@ -1,10 +1,10 @@
 <?php
-namespace Busybrain\Reloadly;
+namespace Busybrain\Amadeus;
 
-use Busybrain\Reloadly\Http\ResponseMediator;
+use Busybrain\Amadeus\Http\ResponseMediator;
 use GuzzleHttp\Client as GuzzleClient;
-use Busybrain\Reloadly\Contract\Config;
-use Busybrain\Reloadly\Contract\ApplicationInterface;
+use Busybrain\Amadeus\Contract\Config;
+use Busybrain\Amadeus\Contract\ApplicationInterface;
 
 /**
  * Class Client

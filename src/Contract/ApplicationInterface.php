@@ -1,6 +1,6 @@
 <?php
 
-namespace Busybrain\Reloadly\Contract;
+namespace Busybrain\Amadeus\Contract;
 
 
 interface ApplicationInterface{

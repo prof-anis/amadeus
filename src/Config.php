@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Busybrain\Reloadly;
+namespace Busybrain\Amadeus;
 	
 
-use Busybrain\Reloadly\Exceptions\RuntimeException;
+use Busybrain\Amadeus\Exceptions\RuntimeException;
 
 class Config{
 

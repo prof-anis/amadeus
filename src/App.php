@@ -1,13 +1,13 @@
 <?php
 
-namespace Busybrain\Reloadly;
+namespace Busybrain\Amadeus;
 
-use Busybrain\Reloadly\Contract\ApplicationInterface;
-use Busybrain\Reloadly\Config as ReloadlyConfig;
-use Busybrain\Reloadly\Client;
+use Busybrain\Amadeus\Contract\ApplicationInterface;
+use Busybrain\Amadeus\Config as ReloadlyConfig;
+use Busybrain\Amadeus\Client;
 use Illuminate\Container\Container;
-use Busybrain\Reloadly\Exceptions\BadMethodCallException;
-use Busybrain\Reloadly\Contract\Config;
+use Busybrain\Amadeus\Exceptions\BadMethodCallException;
+use Busybrain\Amadeus\Contract\Config;
 
 /**
  * Class App

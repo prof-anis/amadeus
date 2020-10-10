@@ -1,6 +1,6 @@
 <?php
 
-namespace Busybrain\Reloadly\Exceptions;
+namespace Busybrain\Amadeus\Exceptions;
 
 
 class BadMethodCallException extends \Exception{
