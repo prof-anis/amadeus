@@ -14,7 +14,7 @@ class Config{
 
 	protected $env;
 
-	protected const AUTH_URI = "https://auth.reloadly.com/oauth/token";
+	protected const AUTH_URI = "https://test.api.amadeus.com/v1/security/oauth2/token";
 
 	function __construct($client_key = '',$secret_key = '',$env){
 		$this->client_key = $client_key;

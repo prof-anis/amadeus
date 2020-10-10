@@ -3,7 +3,7 @@
 
 namespace Busybrain\Amadeus\Http;
 
-use Illuminate\Collection;
+use Illuminate\Support\Collection;
 use GuzzleHttp\Psr7\Response;
 
 /**

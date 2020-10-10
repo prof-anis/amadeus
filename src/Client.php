@@ -56,7 +56,7 @@ class Client{
      * @return $this
      */
     public function withMainHeaders(){
-		$this->addHeader('Content-Type','application/json');
+		$this->addHeader('Content-Type','x-www-form-urlencoded');
 		return $this;
 	}
 
@@ -68,15 +68,15 @@ class Client{
 		
 		
 		$response =  $this->withMainHeaders()->getClient()->post($this->config->getAuthUri(),[
-					'json'=>[
-						'audience' => $this->config->getAudience(),
+					'form_params'=>[
+					 
 						'client_id'=> $this->config->getClientKey(),
 						'client_secret' => $this->config->getSecretKey(),
 						'grant_type' => "client_credentials"
 						]
 					]);
 
-		//var_dump(ResponseMediator::getContent($response));
+		//var_dump(ResponseMediator::getContent($response))['access_token'];
 		return ResponseMediator::getContent($response)['access_token'];
 	}
 
@@ -86,6 +86,7 @@ class Client{
      */
     public function withToken(){
 		$this->headers = [];
+        
 		$this->addHeader('Authorization', "Bearer ".$this->getAuthToken());
 		return $this->getClient();
 	}
