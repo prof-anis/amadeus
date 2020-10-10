@@ -1,6 +1,6 @@
 <?php
 
-namespace Busybrain\Reloadly;
+namespace Busybrain\Amadeus;
 
 class Amadeus{
 

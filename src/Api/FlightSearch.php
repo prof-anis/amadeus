@@ -11,14 +11,33 @@ class FlightSearch extends BaseApi{
     /**
      *
      */
-    protected const URI = '/accounts';
+    protected const URI = '/shopping/flight-offers';
 
 
     /**
      * @return mixed
      * @throws \Busybrain\Reloadly\Exceptions\ClientErrorException
      */
-    public function balance(){
-		return $this->get(self::URI.'/balance');
+    /*
+    * $data = [
+    'originCodeLocation' => 'LOS',
+    'destinationLocationCode' => '',
+    'departureDate' => '',
+    'returnDate' => '',
+    'adults' =>  ,
+    'childres'=>
+    'infant'=> , 
+    'travelClass'=>'',
+    'includeAirlineCode'=>,
+    'excludeAirlineCode'=>
+    'nonStop'=>
+    'currencyCode'=>
+    'max'=>
+    'maxPrice'=>
+
+];
+    */
+    public function fetch(array $data){
+		return $this->get(self::URI,$data);
 	}
 }

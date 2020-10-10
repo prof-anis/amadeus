@@ -1,13 +1,13 @@
 <?php
 
-namespace Busybrain\Reloadly\Api;
+namespace Busybrain\Amadeus\Api;
 
 
-use Busybrain\Reloadly\Client;
-use Busybrain\Reloadly\Config;
-use Busybrain\Reloadly\Exceptions\ClientErrorException;
-use Busybrain\Reloadly\Http\ResponseMediator;
-use Busybrain\Reloadly\Contract\ApplicationInterface;
+use Busybrain\Amadeus\Client;
+use Busybrain\Amadeus\Config;
+use Busybrain\Amadeus\Exceptions\ClientErrorException;
+use Busybrain\Amadeus\Http\ResponseMediator;
+use Busybrain\Amadeus\Contract\ApplicationInterface;
 use GuzzleHttp\Exception\ClientException;
 
 /**
@@ -19,7 +19,7 @@ abstract  class BaseApi{
     /**
      *
      */
-    protected const BASE_URI = "https://topups-sandbox.reloadly.com/";
+    protected const BASE_URI = "https://test.api.amadeus.com/v2";
 
     /**
      * BaseApi constructor.
@@ -49,8 +49,9 @@ abstract  class BaseApi{
             return ResponseMediator::getContent($response);
         }
         catch (ClientException $e){
+             return $e->getMessage();
            throw new ClientErrorException($e->getMessage());
-        }
+        } 
 
 
 	}
@@ -66,11 +67,12 @@ abstract  class BaseApi{
         $uri = self::BASE_URI.$uri;
 
         try{
-            $response = $this->client->withToken()->post($uri,['json'=>$parameters,'headers'=>$headers]);
+            $response = $this->client->withToken()->post($uri,['form_params'=>$parameters,'headers'=>$headers]);
             return ResponseMediator::getContent($response);
         }
         catch (ClientException $e){
-            throw new ClientErrorException($e->getMessage());
+            return $e->getMessage()->errors()->details;
+            //throw new ClientErrorException($e->getMessage());
         }
 
     }
