@@ -18,7 +18,7 @@ class App extends Container implements ApplicationInterface{
     /**
      * @var string
      */
-    protected $bindPath = __DIR__.'../config/bindings.php';
+    protected $bindPath = __DIR__.'/config/bindings.php';
 
     /**
      * @var
@@ -86,7 +86,8 @@ class App extends Container implements ApplicationInterface{
 		$config = new ReloadlyConfig($this->client_key,$this->secret_key,$this->env);
 		$this->instance(Config::class,$config);
 
-		$this->bind(Client::class,function($app){
+		$this->bind(Client::class,function($app)
+        {
 			 return new Client($app);
 		});
 		

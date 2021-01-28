@@ -11,20 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e5dd4a1-b0d5-4ceb-9dbd-3b2c2f66b78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/Airline.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/FlightCreateOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Api/FlightOfferPrice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/reloadly.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reloadly.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Amadeus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Amadeus.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Api/BaseApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/BaseApi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/Discount.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Discount.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Http/ResponseMediator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/ResponseMediator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reloadly.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reloadly.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/bindings.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/bindings.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,9 +123,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kasheto8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -150,6 +149,14 @@
       <workItem from="1602147178941" duration="4426000" />
       <workItem from="1602177124396" duration="590000" />
       <workItem from="1602179485756" duration="60000" />
+      <workItem from="1610271330092" duration="1916000" />
+      <workItem from="1610663191976" duration="549000" />
+      <workItem from="1610752290870" duration="1549000" />
+      <workItem from="1611170901196" duration="723000" />
+      <workItem from="1611396070037" duration="659000" />
+      <workItem from="1611498396671" duration="598000" />
+      <workItem from="1611703230693" duration="5287000" />
+      <workItem from="1611779587408" duration="784000" />
     </task>
     <servers />
   </component>
@@ -167,31 +174,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1602104037274">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1602104037274" />
-    <state x="477" y="136" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602147538805">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="477" y="136" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.720@0.0.1280.720" timestamp="1602147538805" />
-    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1602179545213">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1602179545213" />
-    <state x="413" y="84" key="NewPhpClassDialog" timestamp="1602098931928">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="413" y="84" key="NewPhpClassDialog/0.0.1280.720@0.0.1280.720" timestamp="1602098931928" />
-    <state x="142" y="6" key="SettingsEditor" timestamp="1602104161577">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="142" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1602104161577" />
-    <state x="390" y="105" width="608" height="511" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1602147518454">
-      <screen x="0" y="0" width="1280" height="720" />
-    </state>
-    <state x="390" y="105" width="608" height="511" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1602147518454" />
   </component>
 </project>

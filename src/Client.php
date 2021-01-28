@@ -56,7 +56,8 @@ class Client{
      * @return $this
      */
     public function withMainHeaders(){
-		$this->addHeader('Content-Type','x-www-form-urlencoded');
+		$this->addHeader('Content-Type','application/json');
+		$this->addHeader("Accept", "application/json, application/vnd.amadeus+json");
 		return $this;
 	}
 
@@ -76,7 +77,7 @@ class Client{
 						]
 					]);
 
-		//var_dump(ResponseMediator::getContent($response))['access_token'];
+
 		return ResponseMediator::getContent($response)['access_token'];
 	}
 
@@ -84,7 +85,8 @@ class Client{
      * @return GuzzleClient
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function withToken(){
+    public function withToken()
+    {
 		$this->headers = [];
         
 		$this->addHeader('Authorization', "Bearer ".$this->getAuthToken());

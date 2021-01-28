@@ -1,5 +1,5 @@
 {
-    "name": "busybrain/amadeus",
+    "name": "tobexkee/amadeus",
     "description": "A simple php library to interact with the reloadly api",
     "type": "library",
     "license": "mit",
@@ -19,7 +19,8 @@
         "illuminate/container": "^8.9.0",
         "illuminate/support": "^8.9.0",
         "guzzlehttp/guzzle": "^7.0",
-        "phpunit/phpunit": "^9.4"
+        "phpunit/phpunit": "^9.4",
+        "ext-json": "*"
     }
 
 }
