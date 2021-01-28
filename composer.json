@@ -1,5 +1,5 @@
 {
-    "name": "tobexkee/amadeus",
+    "name": "busybrain/amadeus",
     "description": "A simple php library to interact with the reloadly api",
     "type": "library",
     "license": "mit",
