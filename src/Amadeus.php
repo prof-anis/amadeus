@@ -9,12 +9,7 @@ class Amadeus{
      */
     protected $app;
 
-    /**
-     * Reloadly constructor.
-     * @param $client_id
-     * @param $client_secret
-     * @param string $env
-     */
+    
     function __construct($client_id, $client_secret, $env='sandbox')
     {
 
