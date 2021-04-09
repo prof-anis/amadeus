@@ -9,10 +9,7 @@ use Illuminate\Container\Container;
 use Busybrain\Amadeus\Exceptions\BadMethodCallException;
 use Busybrain\Amadeus\Contract\Config;
 
-/**
- * Class App
- * @package Busybrain\Reloadly
- */
+
 class App extends Container implements ApplicationInterface{
 
     /**
