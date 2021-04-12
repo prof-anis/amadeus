@@ -4,9 +4,7 @@ namespace Busybrain\Amadeus;
 
 class Amadeus{
 
-    /**
-     * @var App
-     */
+    
     protected $app;
 
     
