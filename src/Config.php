@@ -35,11 +35,13 @@ class Config{
 		return $this->secret_key;
 	}
 
-	public function getAuthUri(){
+	public function getAuthUri()
+	{
 		return self::AUTH_URI;
 	}
 
-	public function getAudience(){
+	public function getAudience()
+	{
 		return "https://topups-sandbox.reloadly.com";
 		return $this->env == 'sandbox' ? "https://topups-sandbox.reloadly.com" : "https://topups.reloadly.com";
 	}
