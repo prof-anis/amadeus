@@ -16,7 +16,8 @@ class Config{
 
 	protected const AUTH_URI = "https://test.api.amadeus.com/v1/security/oauth2/token";
 
-	function __construct($client_key = '',$secret_key = '',$env){
+	function __construct($client_key = '',$secret_key = '',$env)
+	{
 		$this->client_key = $client_key;
 		$this->secret_key = $secret_key;
 		$this->env = $env;
@@ -27,7 +28,8 @@ class Config{
 	}
 
 
-	public function getClientKey(){
+	public function getClientKey()
+	{
 		return $this->client_key;
 	}
 
