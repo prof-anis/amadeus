@@ -12,33 +12,24 @@ use Busybrain\Amadeus\Contract\Config;
 
 class App extends Container implements ApplicationInterface{
 
-    /**
-     * @var string
-     */
+    
     protected $bindPath = __DIR__.'/config/bindings.php';
 
-    /**
-     * @var
-     */
+   
     protected $bindings;
 
-    /**
-     * @var
-     */
+    
     public $client_key;
 
-    /**
-     * @var
-     */
+   
     public $secret_key;
 
-    /**
-     * @var mixed|string
-     */
+   
     public $env;
 
     
-    function __construct($client_key, $secret_key, $env = 'sandbox'){
+    function __construct($client_key, $secret_key, $env = 'sandbox')
+    {
 		$this->client_key = $client_key;
 		$this->secret_key = $secret_key;
 		$this->env = $env;
