@@ -12,9 +12,7 @@ use Busybrain\Amadeus\Contract\Config;
 
 class App extends Container implements ApplicationInterface{
 
-    /**
-     * @var string
-     */
+  
     protected $bindPath = __DIR__.'/config/bindings.php';
 
     /**
