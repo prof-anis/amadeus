@@ -17,9 +17,7 @@ class Client{
      */
     protected $headers = [];
 
-    /**
-     * @var
-     */
+    
     protected $client;
 
     /**
