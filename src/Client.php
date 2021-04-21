@@ -22,10 +22,7 @@ class Client{
      */
     protected $client;
 
-    /**
-     * Client constructor.
-     * @param ApplicationInterface $app
-     */
+   
     function __construct(ApplicationInterface $app){
 
 		$this->config = $app->make(Config::class);
