@@ -6,20 +6,13 @@ use GuzzleHttp\Client as GuzzleClient;
 use Busybrain\Amadeus\Contract\Config;
 use Busybrain\Amadeus\Contract\ApplicationInterface;
 
-/**
- * Class Client
- * @package Busybrain\Reloadly
- */
+
 class Client{
 
-    /**
-     * @var array
-     */
+    
     protected $headers = [];
 
-    /**
-     * @var
-     */
+    
     protected $client;
 
     /**
