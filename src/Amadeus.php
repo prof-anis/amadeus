@@ -4,10 +4,7 @@ namespace Busybrain\Amadeus;
 
 class Amadeus{
 
-    /**
-     * @var App
-     */
-    protected $app;
+   
 
     
     function __construct($client_id, $client_secret, $env='sandbox')
