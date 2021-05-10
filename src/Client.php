@@ -9,14 +9,10 @@ use Busybrain\Amadeus\Contract\ApplicationInterface;
 
 class Client{
 
-    /**
-     * @var array
-     */
+    
     protected $headers = [];
 
-    /**
-     * @var
-     */
+    
     protected $client;
 
     /**
